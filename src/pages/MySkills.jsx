@@ -8,18 +8,19 @@ const MySkills = () => {
         <div className="text-5xl">My <span className="font-extrabold" >Skill</span></div>
       </div>
       <div className="flex justify-center lg:justify-start flex-wrap gap-3 mt-10 ">
-        <SkillsButton icon={"icon-javscript.svg"} label={"JavaScript"} alt={""} />
-        <SkillsButton icon={"icon-typescript.svg"} label={"TypeScript"} alt={""} />
-        <SkillsButton icon={"icon_angular.svg"} label={"Angular"} alt={""} />
-        <SkillsButton icon={"icon-react.svg"} label={"React"} alt={""} />
-        <SkillsButton icon={"icon-nodejs.svg"} label={"Node"} alt={""} />
-        <SkillsButton icon={"icon-express.svg"} label={"Express"} alt={""} />
-        <SkillsButton icon={"icon-mongodb.svg"} label={"Mongo DB"} alt={""} />
-        <SkillsButton icon={"icon-sass.svg"} label={"Sass"} alt={""} />
-        <SkillsButton icon={"icon-tailwindcss.svg"} label={"Tailwind"} alt={""} />
-        <SkillsButton icon={"icon-git.svg"} label={"Git"} alt={""} />
-        <SkillsButton icon={"icon-HTML.png"} label={"HTML"} alt={""} />
-        <SkillsButton icon={"icon-CSS.svg"} label={"CSS"} alt={""} />
+        <SkillsButton icon={"icon-javscript.svg"} label={"JavaScript"} alt={"JavaScript Logo"} />
+        <SkillsButton icon={"icon-typescript.svg"} label={"TypeScript"} alt={"TypeScript Logo"} />
+        <SkillsButton icon={"icon_angular.svg"} label={"Angular"} alt={"Angular Logo"} />
+        <SkillsButton icon={"icon-react.svg"} label={"React"} alt={"React Logo"} />
+        <SkillsButton icon={"icon-nodejs.svg"} label={"Node"} alt={"Node Logo"} />
+        <SkillsButton icon={"icon-express.svg"} label={"Express"} alt={"Express Logo"} />
+        <SkillsButton icon={"icon-mongodb.svg"} label={"Mongo DB"} alt={"Mongo DB Logo"} />
+        <SkillsButton icon={"icon-HTML.png"} label={"HTML"} alt={"HTML Logo"} />
+        <SkillsButton icon={"icon-CSS.svg"} label={"CSS"} alt={"CSS Logo"} />
+        <SkillsButton icon={"icon-sass.svg"} label={"Sass"} alt={"Sass Logo"} />
+        <SkillsButton icon={"icon-tailwindcss.svg"} label={"Tailwind"} alt={"Tailwind Logo"} />
+        <SkillsButton icon={"bootstrap-logo-black.svg"} label={"Bootstrap"} alt={"Bootstrap Logo"} />
+        <SkillsButton icon={"icon-git.svg"} label={"Git"} alt={"Git Logo"} />
       </div>
     </div>
   )

@@ -1,11 +1,9 @@
 import LandingPageButtons from "../components/LandingPageButtons";
-import Header from "../shared/Header";
 import { faLinkedin, faMedium, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 const LandingPage = () => (
     <div>
-        <Header />
         {/* Grid layout for phone, tablet, and desktop */}
         <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-0">
             {/* Text Section */}
