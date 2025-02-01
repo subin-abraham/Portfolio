@@ -2,6 +2,12 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+:root {
+  /* For Light Mode */
+  --bg-light-colour: #ffffff;
+  --bg-light-text-colour: #000000;
+}
+
 body {
   margin: 0;
   padding: 20px 100px 100px 100px;
@@ -9,11 +15,13 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 @media (max-width: 1024px) {
   body {
     padding: 10px;
   }
 }
+
 @layer utilities {
   .text-outline {
     font: 800 48px Arial;
@@ -22,6 +30,7 @@ body {
   }
 
 }
+
 @layer utilities {
   .text-outline-responsive {
     font: 400 20px Arial;
