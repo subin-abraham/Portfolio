@@ -8,8 +8,6 @@ const SkillsButton = ({ icon, label, alt }) => {
                 <img src={icon} alt={alt}/>
                 <span className="text-md mt-2">{label}</span>
             </div>
-            {/* <button onClick={() => skillWebsiteNavigtion(routePath)}>
-            </button> */}
         </div>
     )
 }

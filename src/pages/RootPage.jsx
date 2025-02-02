@@ -3,6 +3,7 @@ import Header from "../shared/Header";
 import LandingPage from './LandingPage';
 import MySkills from './MySkills';
 import MyExperience from './MyExperience';
+import AboutMe from './AboutMe';
 
 const RootPage = () => {
     return (
@@ -16,6 +17,9 @@ const RootPage = () => {
             </div>
             <div id="myExperienceSection">
                 <MyExperience />
+            </div>
+            <div id="aboutMeSection">
+                <AboutMe />
             </div>
         </div>
     )

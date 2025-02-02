@@ -74,7 +74,6 @@ const Header = () => {
                     </div>
                 </div>
 
-                {/* Overlay (optional) */}
                 {isMenuOpen && (
                     <div
                         className="fixed inset-0 bg-black bg-opacity-50 z-40 md:hidden"

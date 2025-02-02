@@ -1,5 +1,5 @@
-import React from 'react'
-import MyExperienceCard from '../components/MyExperienceCard'
+import React from 'react';
+import MyExperienceCard from '../components/MyExperienceCard';
 
 const jobExperience = [
     { companyName: "Software Engineer at Polus Solutions", duration: "February 2023 - Present", description: "As a Frontend Developer, I designed and developed a user-friendly web application from scratch using Angular and JavaScript, ensuring a smooth and efficient user experience. I integrated APIs for seamless functionality and built responsive UI components. Collaborating with international teams, I contributed to project planning, development, and troubleshooting to deliver high-quality solutions." },
