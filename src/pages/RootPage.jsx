@@ -2,6 +2,7 @@ import React from 'react';
 import Header from "../shared/Header";
 import LandingPage from './LandingPage';
 import MySkills from './MySkills';
+import MyExperience from './MyExperience';
 
 const RootPage = () => {
     return (
@@ -12,6 +13,9 @@ const RootPage = () => {
             </div>
             <div id="mySkillsSection">
                 <MySkills />
+            </div>
+            <div id="myExperienceSection">
+                <MyExperience />
             </div>
         </div>
     )

@@ -3,7 +3,7 @@ import SkillsButton from '../components/SkillsButton';
 
 const MySkills = () => {
   return (
-    <div style={{ marginTop: '100px' }}>
+    <div className='p-2 md:pt-5 md:px-[100px] md:pb-[50px]' style={{ marginTop: '100px' }}>
       <div className="flex justify-center items-center">
         <div className="text-5xl">My <span className="font-extrabold" >Skill</span></div>
       </div>

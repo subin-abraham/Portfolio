@@ -19,7 +19,13 @@ const Header = () => {
     };
 
     const handleScroll = (id) => {
-        document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
+        const navbarHeight = 60;
+        const element = document.getElementById(id);
+
+        window.scrollTo({
+            top: element.offsetTop - navbarHeight,
+            behavior: 'smooth',
+        });
     };
 
     return (
@@ -57,7 +63,7 @@ const Header = () => {
                         </button>
                         <ul className='flex flex-col gap-4 font-semibold cursor-pointer'>
                             <li>About Me</li>
-                            <li>Skills</li>
+                            <li onClick={() => handleScroll('mySkillsSection')}>Skills</li>
                             <li>Project</li>
                             <li>Contact me</li>
                         </ul>

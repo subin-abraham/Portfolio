@@ -10,16 +10,10 @@
 
 body {
   margin: 0;
-  padding: 20px 100px 100px 100px;
   font-family: "Sora", serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-@media (max-width: 1024px) {
-  body {
-    padding: 10px;
-  }
+  overflow-x: hidden;
 }
 
 @layer utilities {
