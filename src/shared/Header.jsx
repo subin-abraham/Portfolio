@@ -41,10 +41,10 @@ const Header = () => {
                     <div className="hidden md:flex md:items-center">
                         <div className="lg:absolute lg:left-1/2 lg:transform lg:-translate-x-1/2">
                             <ul className='flex gap-10 font-semibold cursor-pointer'>
-                                <li>About Me</li>
+                                <li onClick={() => handleScroll('aboutMeSection')}>About Me</li>
                                 <li onClick={() => handleScroll('mySkillsSection')}>Skills</li>
-                                <li>Project</li>
-                                <li>Contact me</li>
+                                <li onClick={() => handleScroll('myProjectSection')}>Project</li>
+                                <li onClick={() => handleScroll('contactMeSection')}>Contact me</li>
                             </ul>
                         </div>
                         <button className='bg-black text-white p-3 rounded-md ml-10' onClick={handleDownload}>
@@ -62,10 +62,10 @@ const Header = () => {
                             <FontAwesomeIcon icon={faTimes} size="lg" />
                         </button>
                         <ul className='flex flex-col gap-4 font-semibold cursor-pointer'>
-                            <li>About Me</li>
+                            <li onClick={() => handleScroll('aboutMeSection')}>About Me</li>
                             <li onClick={() => handleScroll('mySkillsSection')}>Skills</li>
-                            <li>Project</li>
-                            <li>Contact me</li>
+                            <li onClick={() => handleScroll('myProjectSection')}>Project</li>
+                            <li onClick={() => handleScroll('contactMeSection')}>Contact me</li>
                         </ul>
                         <button className='bg-white text-black p-3 rounded-md mt-4 w-full' onClick={handleDownload}>
                             Resume&nbsp;&nbsp;
