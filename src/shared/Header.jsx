@@ -30,7 +30,7 @@ const Header = () => {
 
     return (
         <div className="relative">
-            <div className='fixed top-0 left-0 right-0 z-50 bg-white ps-10 pe-10 pt-5 '>
+            <div className='fixed top-0 left-0 right-0 z-50 bg-white ps-10 pe-10 pt-5 pb-2 '>
                 <div className='flex justify-between items-center font-semibold '>
                     <div className='flex gap-2 items-center justify-center cursor-pointer' onClick={() => handleScroll('landingPageSection')}> <img src="logo-personal.svg" alt="" /> Personal</div>
                     <div className="md:hidden">

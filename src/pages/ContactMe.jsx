@@ -11,7 +11,7 @@ const contactMe = () => {
                 <div className='text-5xl font-extrabold flex flex-col gap-2'>
                     <div>
                         <span>Let’s </span>
-                        <span>talk </span>
+                        <span className='sm:text-outline-responsive lg:text-outline'>talk </span>
                         <span>for </span>
                     </div>
                     <div>Something special </div>

@@ -6,6 +6,7 @@ import MyExperience from './MyExperience';
 import AboutMe from './AboutMe';
 import MyProjects from './MyProjects';
 import ContactMe from './ContactMe';
+import Footer from '../shared/Footer';
 
 const RootPage = () => {
     return (
@@ -29,6 +30,7 @@ const RootPage = () => {
             <div id="contactMeSection">
                 <ContactMe />
             </div>
+            <Footer/>
         </div>
     )
 }
