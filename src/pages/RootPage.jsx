@@ -4,6 +4,7 @@ import LandingPage from './LandingPage';
 import MySkills from './MySkills';
 import MyExperience from './MyExperience';
 import AboutMe from './AboutMe';
+import MyProjects from './MyProjects';
 
 const RootPage = () => {
     return (
@@ -20,6 +21,9 @@ const RootPage = () => {
             </div>
             <div id="aboutMeSection">
                 <AboutMe />
+            </div>
+            <div id="myProjectSection">
+                <MyProjects/>
             </div>
         </div>
     )
